@@ -1,0 +1,1368 @@
+@media only screen and (max-width:1300px){
+
+    .Logo {
+        width: 350px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .Say {
+        /* width: 1140px; */
+        /*margin: 0px auto; */
+        padding-left: 210px;
+        /* background-color: cyan; */
+        color: white;
+        /* Kỹ thuật canh giữa ko cần đo px:   */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-75%,-20%); 
+    }
+    .Say_1{
+        margin-bottom: 50px;
+        font-size: 40px;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 4px;
+        line-height: 120%;
+    }
+
+    .Say a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(153, 255, 0, 0.5);
+        font-size: 20px;
+        margin-right: 30px;
+        border-radius: 20%;
+        font-weight: 800;
+        letter-spacing: 3px;
+        display: inline-block;
+        width: 190px;
+        text-align: center;
+    }
+
+    .A1{
+        margin-top: -70px;
+    }
+
+    .Menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 1000;
+    }
+
+    .Pickture{
+        /* width: 280px; */
+        width: 200px;
+        /* height: 260px; */
+        height: 180px;
+        margin-left: 25px;
+        border-radius: 10%;
+        box-shadow: -7px 8px 17px 6px rgba(0, 0, 0, 0.404);
+    }
+
+    .Cotmain p{
+        text-align: center;
+        /* background-color: blueviolet; */
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,170%);
+        font-size: 28px;
+        opacity: 0;
+    }
+
+    .Cotmain{
+        width: 1090px;
+        /* background-color: plum;
+        height: 100px; */
+        margin: 0px auto;
+        margin-top: 80px;
+    }
+    .Cot1{
+        float: left;
+        width: 250px;
+        position: relative;
+        height: 260px;
+        /* background-color: red; */
+    }
+    .Cot1:hover .P{
+        transform: translate(-50%,-140%);
+        transition: 0.3s;
+        opacity: 1;
+    }
+
+    .Cot2{
+        float: left;
+        width: 250px;
+        margin: 0px 5px;
+        position: relative;
+        height: 260px;
+    }
+    .Cot2:hover .P{
+        transform: translate(-50%,-140%);
+        transition: 0.3s;
+        opacity: 1;
+    }
+    
+    .Cot3{
+        float: left;
+        width: 250px;
+        height: 260px;
+        margin-right: 5px;
+        position: relative;
+    }
+    .Cot3:hover .P{
+        transform: translate(-50%,-140%);
+        transition: 0.3s;
+        opacity: 1;
+    }
+
+    .Money{
+        width: 1020px;
+        margin: 0px auto;
+        margin-top: 60px;
+        /* background-color: blue;
+        height: 500px; */
+        height: 580px;
+    }
+    .Money3{
+        float: left;
+        width: 280px;
+        margin: 0px 30px;
+        /* background-color: red; */
+    }
+    .Money1{
+        float: left;
+        width: 280px;
+        height: 80px;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.7),rgb(51, 51, 255, 0.7) 60%,rgb(255, 204, 0, 0.7)),url(../Img/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0px 0px;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        /* border: 2px solid rgb(51, 51, 255); */
+    }
+
+    .Money2{
+        width: 280px;
+        height: 450px;
+        float: left;
+        margin: 0px 0px;
+        border: 5px solid rgb(51, 51, 255,0);
+        border-top: 5px solid white;
+        background-color: aqua;
+        background-image: linear-gradient(to bottom,rgb(51, 51, 255, 0.3)1%,rgb(204, 0, 0,0.7)), url(../Img/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .Money2 p{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        /* background-color: aqua; */
+    }
+    .Money22{
+        width: 270px;
+        height: 440px;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.7), rgb(51, 51, 255,0.7),rgb(255, 204, 0,0.7)), none;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .Gom1{
+        /* background-color: aqua; */
+        display: inline-block;
+        width: 200px;
+        margin-left: 35px;
+        margin-top: 80px;
+    }
+    .Content{
+        display: inline-block;
+        margin-left: 25px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: rgb(226, 255, 182);
+        font-weight: 600;
+    }
+
+    .Money2 a{
+        color: rgb(95, 95, 95);
+        text-decoration: none;
+        padding: 15px 20px;
+        background-image: linear-gradient(/*to left bottom*/ 295deg,rgb(153, 255, 0,1) 100%,rgb(255, 204, 0, 0.7)), url(../Img/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 20px;
+        border-radius: 20%;
+        font-weight: 800;
+        letter-spacing: 3px;
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 60px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .Command{
+        width: 1020px;
+        height: 860px;
+        margin: 0px auto;
+        /* background-color: blue; */
+        margin-top: 20px;
+    }
+    .Command1{
+        width: 280px;
+        height: 440px;
+        margin: 0px 30px;
+        /* background-color: aqua;
+        border: 1px solid red; */
+        float: left;
+        margin-top: 50px;
+    }
+    .Command2{
+        width: 280px;
+        height: 40px;
+        margin: 0px 0px;
+        /* background-color: aqua;
+        border: 1px solid red; */
+        float: left;
+        /* margin-top: 170px; */
+        margin-top: -40px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+    blockquote{
+        width: 280px;
+        height: 650px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 16px;
+        color: black;
+        background-color: rgb(153, 255, 0,0.83);
+        padding: 0px 5px;
+        position: relative;
+        z-index: 1;
+    }
+    blockquote::before{
+        content: '\0022';
+        display: inline-block;
+        font-size: 80px;
+        /* background-color: blueviolet; */
+        position: relative;
+        bottom: 20px;
+        right: 0px;
+    }
+    cite p{
+        display: inline-block;
+        position: relative;
+        bottom: 53px;
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin-left: 10px;
+        font-weight: 1000;
+        color: black;
+        /* filter: brightness(1000%); */
+    }
+
+    .Img{
+        /* width: 200px;
+        height: 130px; */
+        width: 120px;
+        height: 80px;
+        border-radius: 60%;
+        margin-top: 38px;
+        position: relative;
+        bottom: 37.5px;
+        right: 0.5px;
+    }
+    .Img2{
+        width: 120px;
+        height: 80px;
+        border-radius: 60%;
+        margin-top: 68px;
+        position: relative;
+        bottom: 68px;
+        right: 0.5px;
+    }
+    .Img1{
+        width: 120px;
+        height: 80px;
+        border-radius: 60%;
+        margin-top: 157px;
+        position: relative;
+        bottom: 156.5px;
+        right: -0.5px;
+    }
+    .Imgborder1{
+        display: inline-block;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.5), rgb(51, 51, 255,0.5) 60%,rgb(255, 204, 0,0.5)), url(../Img/pokemon\ unite.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 134px;
+        height: 94px;
+        border: 7px solid rgba(255, 0, 0, 0);
+        border-radius: 60%;
+        position: relative;
+        top: 159px;
+    }
+    .Imgborder2{
+        display: inline-block;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.5), rgb(51, 51, 255,0.5) 60%,rgb(255, 204, 0,0.5)), url(../Img/pokemon\ unite.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;   
+        width: 134px;
+        height: 94px;
+        border: 7px solid rgba(255, 0, 0, 0);
+        border-radius: 60%;
+        position: relative;
+        top: 63px;
+    }
+    .Imgborder{
+        display: inline-block;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.5), rgb(51, 51, 255,0.5) 60%,rgb(255, 204, 0,0.5)), url(../Img/pokemon\ unite.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;    
+        width: 134px;
+        height: 94px;
+        border: 7px solid rgba(255, 0, 0, 0);
+        border-radius: 60%;
+        position: relative;
+        top: 39px;
+        /* top: 195px; */
+        /* 195-39=156px */
+    }
+    .NamePKM1{
+        position: relative;
+        top: -26px;
+    }
+    .NamePKM2{
+        position: relative;
+        top: -35px;
+    }
+    .NamePKM{
+        position: relative;
+        top: -31px;
+    }
+
+    .InforAdmin{
+        color: rgb(255, 255, 255);
+        padding-left: 25px;
+        margin-top: 250px;
+        line-height: 50px;
+        display: inline-block;
+        background-color: rgba(168, 134, 0, 0.651);
+        width: 45%;
+        /* float: left; */
+        border-radius: 20px;
+    }
+    .ContactAdmin{
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .ConnectAdmin i{
+        margin-right: 30px;
+        font-size: 50px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .InputGuest{
+        font-size: 20px;
+        /* background-color: red; */
+        width: 100px;
+        margin-left: 20px;
+        float: left;
+        letter-spacing: 2px;
+    }
+    .InputNickname{
+        font-size: 20px;
+        /* background-color: yellow; */
+        padding-left: 5px;
+        width: 300px;
+        display: inline-block;
+        letter-spacing: 2px;
+        background-color: rgba(0, 0, 0, 0.452);
+        color: white;
+        border: 2px solid rgb(255, 204, 0, 0.5);
+        border-radius: 7px;
+    }
+    .InputNickname1{
+        font-size: 18px;
+        padding-left: 5px;
+        width: 300px;
+        display: inline-block;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.452);
+        resize: none;
+        /* làm cho textarea ko còn thay đổi size đc nữa */
+        border: 2px solid rgb(255, 204, 0, 0.5);
+        border-radius: 7px;
+    }
+
+    .Send_Us{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, rgb(153, 255, 0,0.7) 100%, white), none;
+        text-align: center;
+        padding: 5px 30px;
+        padding-bottom: 7px;
+        border-radius: 50px;
+        position: relative;
+        bottom: 31px;
+    }
+    .Send_Us1{
+        text-align: center;
+        margin-top: 10px;
+        /* background-color: aqua; */
+        display: inline-block;
+        height: 42px; 
+        width: 195px;
+    }
+    .Send_Us1 p{
+        display: inline-block;
+        font-size: 50px;
+        position: relative;
+        bottom: 22px;
+    }
+
+    .End{
+        font-size: 21px;
+        padding-top: 13px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        color: white;
+    }
+}
+@media only screen and (max-width:1222px){
+    .Menu a{
+        font-size: 14px;
+    }
+    .Menucover{
+        margin-top: 7px;
+    }
+}
+@media only screen and (max-width:1168px){
+    .Menu a{
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+
+    .BorderRight{
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1025px){
+    .Menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+
+    .Say_1{
+        margin-bottom: 50px;
+        font-size: 38px;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 4px;
+        line-height: 120%;
+    }
+
+    .Say{
+       padding-left: 70px;
+       margin-top: 100px;
+       color: white;
+    }
+
+    .Cotmain{
+        width: 510px;
+        margin: 0px auto;
+        margin-top: 80px;
+        height: 500px;
+        /* background-color: antiquewhite; */
+    }
+    .Cot1{
+        float: left;
+        width: 250px;
+        position: relative;
+        height: 260px;
+    }
+    .Cot2{
+        float: left;
+        width: 250px;
+        position: relative;
+        height: 260px;
+    }
+    .Cot2:hover .P{
+        transform: translate(-50%,-140%);
+        transition: 0.3s;
+        opacity: 1;
+    }
+    
+    .Cot3{
+        float: left;
+        width: 250px;
+        height: 260px;
+        margin-right: 5px;
+        position: relative;
+    }
+    .Cot3:hover .P{
+        transform: translate(-50%,-140%);
+        transition: 0.3s;
+        opacity: 1;
+    }
+
+    .Money{
+        width: 340px;
+        margin: 0px auto;
+        margin-top: 40px;
+        /* background-color: blue;
+        height: 500px; */
+        height: 580px;
+        /* background-color: aqua; */
+    }
+    .Money3{
+        float: left;
+        width: 280px;
+        margin: 20px 30px;
+        /* background-color: red; */
+    }
+    .Money1{
+        float: left;
+        width: 280px;
+        height: 80px;
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.7),rgb(51, 51, 255, 0.7) 60%,rgb(255, 204, 0, 0.7)),url(../Img/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0px 0px;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        /* border: 2px solid rgb(51, 51, 255); */
+    }
+
+    .Money2{
+        width: 280px;
+        height: 450px;
+        float: left;
+        margin: 0px 0px;
+        border: 5px solid rgb(51, 51, 255,0);
+        border-top: 5px solid white;
+        background-image: linear-gradient(to bottom,rgb(51, 51, 255, 0.3)1%,rgb(204, 0, 0,0.7)), url(../Img/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .Section2{
+        background-image: linear-gradient(295deg,rgb(204, 0, 0,0.6), rgb(51, 51, 255,0.6),rgb(255, 204, 0,0.6)), none;
+        margin-top: 40px;
+        height: 1900px;
+    }
+
+    .Command{
+        width: 340px;
+        height: 860px;
+        margin: 0px auto;
+        /* background-color: blue; */
+        margin-top: 0px;
+    }
+    .Command1{
+        width: 280px;
+        height: 650px;
+        margin: 0px 30px;
+        /* background-color: aqua;
+        border: 1px solid red; */
+        float: left;
+        margin-top: 50px;
+        /* background-color: red; */
+    }
+    .Command2{
+        width: 280px;
+        height: 40px;
+        margin: 0px 0px;
+        /* background-color: aqua;
+        border: 1px solid red; */
+        float: left;
+        /* margin-top: 170px; */
+        margin-top: -40px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .Section3{
+        height: 2250px;
+    }
+
+    .ImgPKM{
+        width: 150px;
+        cursor: pointer;
+    }
+    .ImgPKM1{
+        width: 150px;
+        position: relative;
+        top: 50px;
+        cursor: pointer;
+    }
+    .ImgPKM2{
+        width: 150px;
+        position: relative;
+        top: 60px;
+        cursor: pointer;
+    }
+    .ImgPKM3{
+        width: 150px;
+        cursor: pointer;
+    }
+    .ImgPKM4{
+        width: 150px;
+        position: relative;
+        top: 40px;
+        cursor: pointer;
+    }
+
+    .FavoritesPKM{
+        width: 900px;
+        height: 100px;
+        margin: 0px auto;
+        /* background-color: aqua; */
+        margin-top: 50px;
+    }
+    .FavoritesPKM1 p{
+        text-align: center;
+        text-transform: capitalize;
+        background-color: rgb(255, 204, 0,0.5);
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        filter: brightness(200%);
+        width: 170px;
+        cursor: pointer;
+    }
+    .FavoritesPKM2{
+        width: 200px;
+        margin: 0px 30px;
+        /* background-color: rgb(0, 0, 0); */
+        float: left;
+        height: 350px;
+    }
+    .FavoritesPKM3{
+        width: 200px;
+        margin: 0px 30px;
+        margin-top: 50px;
+        /* background-color: rgb(0, 0, 0); */
+        float: left;
+        height: 350px;
+    }
+
+    .Section5{
+        position: relative;
+        bottom: 1px;
+    }
+    .Section6{
+        position: relative;
+        bottom: 1px;
+    }
+    .End{
+        font-size: 16px;
+        padding-top: 15px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        color: white;
+    }
+
+    .InforAdmin{
+        color: rgb(255, 255, 255);
+        padding-left: 15px;
+        margin-top: 200px;
+        line-height: 40px;
+        display: inline-block;
+        background-color: rgba(168, 134, 0, 0.651);
+        width: 45%;
+        /* float: left; */
+        border-radius: 20px;
+    }
+
+    .ContactAdmin .icon:hover{
+        color: rgb(153, 255, 0);
+        transform: scale(1.3);
+        transition: 0.1s;
+    }
+
+    .ConnectAdmin i{
+        margin-right: 30px;
+        font-size: 45px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .ConnectAdmin .icon:hover{
+        color: rgb(153, 255, 0);
+        transform: scale(1.4);
+        transition: 0.1s;
+    }
+
+    .InputGuest{
+        font-size: 16px;
+        /* background-color: red; */
+        width: 80px;
+        margin-left: 20px;
+        float: left;
+        letter-spacing: 2px;
+    }
+    .InputNickname{
+        font-size: 16px;
+        /* background-color: yellow; */
+        padding-left: 5px;
+        width: 250px;
+        display: inline-block;
+        letter-spacing: 2px;
+        background-color: rgba(0, 0, 0, 0.452);
+        color: white;
+        border: 2px solid rgb(255, 204, 0, 0.5);
+        border-radius: 7px;
+    }
+    .InputNickname1{
+        font-size: 15px;
+        padding-left: 5px;
+        width: 250px;
+        display: inline-block;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.452);
+        resize: none;
+        /* làm cho textarea ko còn thay đổi size đc nữa */
+        border: 2px solid rgb(255, 204, 0, 0.5);
+        border-radius: 7px;
+    }
+
+    .Send_Us{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        background-image: linear-gradient(to bottom, rgb(153, 255, 0,0.7) 100%, white), none;
+        text-align: center;
+        padding: 5px 30px;
+        padding-bottom: 7px;
+        border-radius: 50px;
+        position: relative;
+        bottom: 31px;
+    }
+    .Send_Us1{
+        text-align: center;
+        margin-top: 17px;
+        /* background-color: aqua; */
+        display: inline-block;
+        height: 42px; 
+        width: 195px;
+    }
+    .Send_Us1 p{
+        display: inline-block;
+        font-size: 40px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .CreateAccount{
+        width: 50%;
+        background-color: rgba(204, 0, 0, 0.3);
+        /* display: inline-block; */
+        margin-top: 100px;
+        float: right;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        border-radius: 20px;
+        height: 450px;
+    }
+
+    .Us{
+        text-align: center;
+        color: rgb(204, 0, 0);
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-size: 16px;
+        margin: 0px auto;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+
+    .P1::after{
+        content: "";
+        display: block;
+        width: 180px;
+        height: 3px;
+        background-color: black;
+        margin: 0px auto;
+        opacity: 0.4;
+        margin-top: 20px;
+        box-shadow: 0px 3px 3px 0px black;
+    }
+
+    .Say {
+        /* width: 1140px; */
+        /*margin: 0px auto; */
+        padding-left: 210px;
+        /* background-color: cyan; */
+        color: white;
+        /* Kỹ thuật canh giữa ko cần đo px:   */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-65%,-80%); 
+    }
+
+    .Say a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(153, 255, 0, 0.5);
+        font-size: 20px;
+        margin-right: 30px;
+        border-radius: 20%;
+        font-weight: 800;
+        letter-spacing: 3px;
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Logo {
+        width: 250px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width:1138px){
+    .Menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+    
+    .Menu li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .BorderRight{
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 30px;
+        background-color: white;
+        position: relative;
+        top: 10px;
+        left: -9px;
+    }
+}
+@media only screen and (max-width:479px){
+    .Logo {
+        width: 250px;
+        float: none;
+        margin-top: 10px;
+        margin-left: 0px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Menu {
+        /* display: none; */
+        margin-right: 215px;
+        /* position: absolute; */
+        position: fixed;
+        bottom: 320px;
+        /* left: -190px; */
+        background-image: linear-gradient(/*to left bottom*/295deg, rgb(204, 0, 0, 0.8), rgb(51, 51, 255, 0.8) 60%, rgb(255, 204, 0, 0.8)), none;
+        padding-top: 200px;
+        padding-left: 220px;
+        padding-bottom: 10px;
+        width: 410px;
+        height: 500px;
+        z-index: 9;
+        left: -490px;
+    }
+    .MenuToggle1{
+        left: -190px;
+        transition: 0.5s;
+    }
+    .MenuToggle2{
+        left: -490px;
+        transition: 0.7s;
+    }
+
+    .Menucover{
+        width: 200px;
+        /* background-color: blue; */
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .MainMenu{
+        height: 50px;
+        position: relative;
+        top: -100px;
+        background-color:rgb(153, 255, 0, 0.8);
+    }
+
+    .Sticky .Menu{
+        /* transition: 0s; */
+        position: fixed;
+        bottom: 365px;
+        padding-top: 200px;
+        background-image: linear-gradient(/*to left bottom*/295deg, rgb(204, 0, 0, 0.8), rgb(51, 51, 255, 0.8) 60%, rgb(255, 204, 0, 0.8)), none;
+    }
+
+    .BorderRight{
+        content: "";
+        display: none;
+        width: 2px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        top: 4px;
+        left: -9px;
+    }
+    .Menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 1000;
+        width: 150px;
+        background-color: rgba(0, 0, 0, 0.507);
+        display: inline-block;
+        margin-bottom: 4px;
+        text-align: center;
+        padding: 7.5px 0px;
+        border-bottom: 3px solid rgba(245, 245, 245, 0);
+        border-top: 3px solid rgba(245, 245, 245, 0);
+        border-radius: 500px;
+    }
+    .Menu a:hover {
+        border-bottom: 3px solid whitesmoke;
+        border-top: 3px solid whitesmoke;
+        transition: border 0.1s;
+        padding-bottom: 7.5px;
+    }
+    .Menu a:active {
+        color: rgb(153, 255, 0);
+        border-bottom: 6px solid rgb(153, 255, 0);
+        border-top: 6px solid rgb(153, 255, 0);
+        transition: 0.01s;
+    }
+    
+    .Menu li {
+        display: block;
+        margin-right: 0px;
+        width: 300px;
+    }
+
+    .Say a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(153, 255, 0, 0.5);
+        font-size: 20px;
+        margin-right: 30px;
+        border-radius: 20%;
+        font-weight: 800;
+        letter-spacing: 3px;
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Section6{
+        height: 61px;
+    }
+
+    .bars{
+        display: inline-block;
+        font-size: 15px;
+        top: 10px;
+        left: 86px;
+        opacity: 1;
+    }
+    .barsNone{
+        opacity: 0;
+        transition: 0.35s ease-in-out;
+        left: 220px;
+        cursor: default;
+    }
+    .barsAppear{
+        opacity: 1;
+        left: 86px;
+        transition: 0.5s;
+    }
+    .TextBars{
+        display: inline-block;
+        font-size: 19px;
+        font-weight: 600;
+        top: 10px;
+        left: 121px;    
+        color: black;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        cursor: default;
+    }
+    .TextBarsNone{
+        opacity: 0;
+        transition: 0.35s ease-in-out;
+        left: 250px;
+        cursor: default;
+    }
+    .TextBarsAppear{
+        opacity: 1;
+        left: 121px;    
+        transition: 0.5s;
+    }
+
+    .fa-times-circle{
+        display: inline-block;
+    }
+    .TextClose{
+        display: inline-block;
+        font-size: 19px;
+        font-weight: 600;   
+        color: white;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        z-index: 10;
+        letter-spacing: 1px;
+        top: 155px;
+        left: 310px;
+        cursor: default;
+    }
+
+    .Sticky .bars{
+        top: 10px;
+    }
+
+    .Sticky .Logo{
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .Sticky{
+        transition: 0s;
+        height: 50px;
+    }
+
+    .Sticky .MainMenu{
+        margin-top: 32px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .Sticky .Menu .BorderRight{
+        display: none;
+    }
+
+    .Sticky .Menu a{
+        color: rgb(255, 255, 255);
+        border-bottom: 3px solid rgba(255, 255, 255, 0);
+        border-top: 3px solid rgba(255, 255, 255, 0);
+    }
+    .Sticky .Menu a:hover{
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-top: 3px solid rgb(255, 255, 255);
+        /* background-color: rgba(255, 255, 255, 0.815); */
+        transition: border 0.1s;
+        padding-bottom: 7.5px;
+    }
+    .Sticky .Menu a:active{
+        border-bottom: 6px solid rgb(153, 255, 0);
+        border-top: 6px solid rgb(153, 255, 0);
+        transition: 0.01s;
+    }
+
+    .GoFirstPage1{
+        font-size: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 560%);
+        width: 60px;
+        padding-top: 5px;
+    }
+    body{
+        width: 210%;
+    }
+}
+@media only screen and (max-width:873px){
+        .Logo {
+            width: 250px;
+            float: none;
+            margin-top: 10px;
+            margin-left: 0px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .Menu {
+            /* display: none; */
+            margin-right: 215px;
+            /* position: absolute; */
+            position: fixed;
+            bottom: 320px;
+            /* left: -190px; */
+            background-image: linear-gradient(/*to left bottom*/295deg, rgb(204, 0, 0, 0.8), rgb(51, 51, 255, 0.8) 60%, rgb(255, 204, 0, 0.8)), none;
+            padding-top: 200px;
+            padding-left: 220px;
+            padding-bottom: 10px;
+            width: 410px;
+            height: 500px;
+            z-index: 9;
+            left: -490px;
+        }
+        .MenuToggle1{
+            left: -190px;
+            transition: 0.5s;
+        }
+        .MenuToggle2{
+            left: -490px;
+            transition: 0.7s;
+        }
+
+        .Menucover{
+            width: 200px;
+            /* background-color: blue; */
+            position: absolute;
+            bottom: 5px;
+        }
+
+        .MainMenu{
+            height: 50px;
+            position: relative;
+            top: -100px;
+            background-color:rgb(153, 255, 0, 0.8);
+        }
+
+        .Sticky .Menu{
+            /* transition: 0s; */
+            position: fixed;
+            bottom: 365px;
+            padding-top: 200px;
+            background-image: linear-gradient(/*to left bottom*/295deg, rgb(204, 0, 0, 0.8), rgb(51, 51, 255, 0.8) 60%, rgb(255, 204, 0, 0.8)), none;
+        }
+
+        .BorderRight{
+            content: "";
+            display: none;
+            width: 2px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            top: 4px;
+            left: -9px;
+        }
+        .Menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 1000;
+            width: 150px;
+            background-color: rgba(0, 0, 0, 0.507);
+            display: inline-block;
+            margin-bottom: 4px;
+            text-align: center;
+            padding: 7.5px 0px;
+            border-bottom: 3px solid rgba(245, 245, 245, 0);
+            border-top: 3px solid rgba(245, 245, 245, 0);
+            border-radius: 500px;
+        }
+        .Menu a:hover {
+            border-bottom: 3px solid whitesmoke;
+            border-top: 3px solid whitesmoke;
+            transition: border 0.1s;
+            padding-bottom: 7.5px;
+        }
+        .Menu a:active {
+            color: rgb(153, 255, 0);
+            border-bottom: 6px solid rgb(153, 255, 0);
+            border-top: 6px solid rgb(153, 255, 0);
+            transition: 0.01s;
+        }
+        
+        .Menu li {
+            display: block;
+            margin-right: 0px;
+            width: 300px;
+        }
+
+        .Say a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: rgb(153, 255, 0, 0.5);
+            font-size: 20px;
+            margin-right: 30px;
+            border-radius: 20%;
+            font-weight: 800;
+            letter-spacing: 3px;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .Section6{
+            height: 61px;
+        }
+
+        .bars{
+            display: inline-block;
+            font-size: 15px;
+            top: 10px;
+            left: 86px;
+            opacity: 1;
+        }
+        .barsNone{
+            opacity: 0;
+            transition: 0.35s ease-in-out;
+            left: 220px;
+            cursor: default;
+        }
+        .barsAppear{
+            opacity: 1;
+            left: 86px;
+            transition: 0.5s;
+        }
+        .TextBars{
+            display: inline-block;
+            font-size: 19px;
+            font-weight: 600;
+            top: 10px;
+            left: 121px;    
+            color: black;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 2px;
+            cursor: default;
+        }
+        .TextBarsNone{
+            opacity: 0;
+            transition: 0.35s ease-in-out;
+            left: 250px;
+            cursor: default;
+        }
+        .TextBarsAppear{
+            opacity: 1;
+            left: 121px;    
+            transition: 0.5s;
+        }
+
+        .fa-times-circle{
+            display: inline-block;
+        }
+        .TextClose{
+            display: inline-block;
+            font-size: 19px;
+            font-weight: 600;   
+            color: white;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 2px;
+            z-index: 10;
+            letter-spacing: 1px;
+            top: 155px;
+            left: 310px;
+            cursor: default;
+        }
+
+        .Sticky .bars{
+            top: 10px;
+        }
+
+        .Sticky .Logo{
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        .Sticky{
+            transition: 0s;
+            height: 50px;
+        }
+
+        .Sticky .MainMenu{
+            margin-top: 32px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .Sticky .Menu .BorderRight{
+            display: none;
+        }
+
+        .Sticky .Menu a{
+            color: rgb(255, 255, 255);
+            border-bottom: 3px solid rgba(255, 255, 255, 0);
+            border-top: 3px solid rgba(255, 255, 255, 0);
+        }
+        .Sticky .Menu a:hover{
+            border-bottom: 3px solid rgb(255, 255, 255);
+            border-top: 3px solid rgb(255, 255, 255);
+            /* background-color: rgba(255, 255, 255, 0.815); */
+            transition: border 0.1s;
+            padding-bottom: 7.5px;
+        }
+        .Sticky .Menu a:active{
+            border-bottom: 6px solid rgb(153, 255, 0);
+            border-top: 6px solid rgb(153, 255, 0);
+            transition: 0.01s;
+        }
+
+        .GoFirstPage1{
+            font-size: 40px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 560%);
+            width: 60px;
+            padding-top: 5px;
+        }
+}

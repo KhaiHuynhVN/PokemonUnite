@@ -1,0 +1,1279 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 16px;
+    /* scroll-behavior: smooth; */
+}
+
+.GoFirstPage1 {
+    position: fixed;
+    font-size: 60px;
+    background-color: rgb(204, 0, 0, 0.7);
+    /* top: 661px; */
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 540%);
+    z-index: 10;
+    color: white;
+}
+.GoFirstPage1:hover {
+    background-color: rgba(255, 130, 130, 0.856);
+    transition: 0.1s;
+}
+.GoFirstPage1:active {
+    background-color: rgb(204, 0, 0, 0.7);
+}
+.GoFirstPage1 i {
+    position: relative;
+    bottom: 18px;
+}
+.Invisible{
+    opacity: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* -------------------------------------Sticky------------------------------ */
+.Sticky{
+    /* background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.6), rgb(51, 51, 255, 0.6) 60%, rgb(255, 204, 0, 0.6)), none; */
+    background-color:rgb(153, 255, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+}
+.Sticky:hover{
+    /* background-image: linear-gradient(295deg, rgb(204, 0, 0, 1), rgb(51, 51, 255, 1) 60%, rgb(255, 204, 0, 1)), none; */
+    background-color:rgb(153, 255, 0, 1);
+}
+.Sticky .Logo{
+    width: 200px;
+    margin-top: 10px;
+}
+.Sticky .Menu{
+    margin-top: 0px;
+    background-color: #fffacd00;
+}
+
+.Sticky .Menu a{
+    color: rgb(0, 0, 0);
+}
+.Sticky .Menu a:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
+    /* background-color: rgba(255, 255, 255, 0.815); */
+    transition: border 0.1s;
+    padding-bottom: 2px;
+}
+.Sticky .Menu a:active{
+    border-bottom: 6px solid rgb(51, 51, 255);
+    border-top: 6px solid rgb(51, 51, 255);
+    transition: 0.01s;
+}
+.Sticky .Menu .BorderRight{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 7px;
+    left: -15px;
+}
+
+
+/* ---------------------------------Bars menu--------------------------------- */
+.bars{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: none;
+    background-color: rgb(204, 0, 0);
+    z-index: 8;
+    cursor: pointer;
+}
+
+.fa-times-circle{
+    display: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    position: absolute;
+    /* top: 159px; */
+    top: 155px;
+    left: 278px;
+    z-index: 10;
+    background-color: rgb(204, 0, 0);
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.TextBars{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    letter-spacing: 1px;
+    cursor: unset;
+}
+.TextClose{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    letter-spacing: 1px;
+    top: 159px;
+    left: 310px;
+}
+/* ------------------------------------------------------------------------- */
+/* --------------------------<header>----------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+header {
+    /* width: 1200px;
+    margin: 0px auto; */
+    background-image: linear-gradient(/*to left bottom*/295deg, rgb(204, 0, 0, 0.7), rgb(51, 51, 255, 0.7) 60%, rgb(255, 204, 0, 0.7)), url(../Img/background.png);
+    /* to left bottom và 295deg là chỉnh độ nghiêng của các màu. Còn % là độ lớn của màu đó */
+    background-size: cover;
+    /*làm cho độ lớn ảnh vừa với phần header */
+    background-position: center;
+    /* làm cho ảnh nằm ra giữa phần header */
+    height: 95vh;
+    background-attachment: fixed;
+}
+
+.Clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Say {
+    /* width: 1140px; */
+    /*margin: 0px auto; */
+    padding-left: 210px;
+    /* background-color: cyan; */
+    color: white;
+    /* Kỹ thuật canh giữa ko cần đo px:   */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%,-20%); 
+}
+
+.Say a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(153, 255, 0, 0.5);
+    font-size: 30px;
+    margin-right: 30px;
+    border-radius: 20%;
+    font-weight: 800;
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+}
+.A1{
+    width: 600px;
+    margin-top: 0px;
+}
+
+.Say a:hover {
+    /* background-image:linear-gradient(to bottom,rgba(153, 255, 0, 0)60%, rgb(229, 245, 205)), none ; */
+    background-color: rgba(153, 255, 0, 0.829);
+    transition: 0.1s;
+}
+
+.Say a:active {
+    background-color: rgba(153, 255, 0, 0.089);
+    border: 3px solid rgba(153, 255, 0, 0.829);
+    transition: 0.1s;
+}
+
+.Say_1 {
+    /* margin-bottom: 50px; */
+    font-size: 50px;
+    font-weight: 550;
+    text-transform: uppercase;
+    /* dùng để biến chữ thường thành chữ full in hoa */
+    letter-spacing: 5px;
+    /* dùng để tăng giảm khoảng cách giữa từng chữ cái */
+    word-spacing: 4px;
+    /* dùng để tăng giảm khoảng cách giữa các chữ */
+    line-height: 120%;
+    /* dùng để tăng giảm khoảng cách giữa các dòng */
+}
+
+.LogoCenter{
+    text-align: center;
+    /* background-color: white; */
+    width: 100%;
+}
+.Logo {
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Menu {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.342);
+    height: 60px;
+    padding-left: 10px;
+}
+.Menucover{
+    margin-top: 10px;
+}
+.BorderRight{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    top: 7px;
+    left: -15px;
+}
+
+.Menu a:hover {
+    border-bottom: 3px solid whitesmoke;
+    border-top: 3px solid whitesmoke;
+    transition: border 0.1s;
+    padding-bottom: 2px;
+}
+
+.Menu a:active {
+    border-bottom: 6px solid rgb(153, 255, 0);
+    border-top: 6px solid rgb(153, 255, 0);
+    transition: 0.01s;
+}
+
+.Menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.Menu li {
+    display: inline;
+    margin-right: 30px;
+}
+
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------Section------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+.Cotmain {
+    width: 1490px;
+    /* background-color: plum;
+    height: 100px; */
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+.Cotmain p {
+    text-align: center;
+    /* background-color: blueviolet; */
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 170%);
+    font-size: 35px;
+    opacity: 0;
+}
+
+.Cot1:hover .P {
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.Cot1:hover .Pickture {
+    filter: blur(4px) brightness(30%);
+    transition: 0.3s;
+}
+
+.Cot2:hover .P {
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.Cot2:hover .Pickture {
+    filter: blur(4px) brightness(30%);
+    transition: 0.3s;
+}
+
+.Cot3:hover .P {
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.Cot3:hover .Pickture {
+    filter: blur(4px) brightness(30%);
+    transition: 0.3s;
+}
+
+.Cot1 {
+    float: left;
+    width: 350px;
+    position: relative;
+    height: 260px;
+    /* background-color: aqua; */
+}
+
+.Cot2 {
+    float: left;
+    width: 350px;
+    margin: 0px 30px;
+    position: relative;
+    height: 260px;
+}
+
+.Cot3 {
+    float: left;
+    width: 350px;
+    height: 260px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.Pickture {
+    /* width: 90%; */
+    width: 280px;
+    height: 260px;
+    margin-left: 35px;
+    border-radius: 10%;
+    box-shadow: -7px 8px 17px 6px rgba(0, 0, 0, 0.404);
+    /* dùng để tạo hiệu ứng cái bóng: có 5 thuộc tính gồm x y, độ mờ, độ rộng, màu */
+    /* filter:blur(4px) brightness(40%) ; */
+}
+
+.About {
+    color: rgb(51, 51, 255, 0.8);
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-top: 30px;
+    line-height: 4px;
+}
+
+.About::after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(51, 51, 255, 0.5);
+    margin: 0px auto;
+    margin-top: 30px;
+    box-shadow: 0px 2px 4px 0px black;
+}
+
+.Us {
+    text-align: center;
+    color: rgb(204, 0, 0);
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 20px;
+    margin: 0px auto;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------PRODUCTS------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+.About2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 4px;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.About22 {
+    text-align: center;
+}
+
+.About2::after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 30px;
+    box-shadow: 0px 2px 4px 0px black;
+}
+
+.Money {
+    width: 1410px;
+    margin: 0px auto;
+    margin-top: 60px;
+    /* background-color: blue;
+    height: 500px; */
+    height: 580px;
+}
+
+.Money3 {
+    float: left;
+    width: 410px;
+    margin: 0px 30px;
+}
+
+.Money1 {
+    float: left;
+    width: 410px;
+    height: 80px;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.7), rgb(51, 51, 255, 0.7) 60%, rgb(255, 204, 0, 0.7)), url(../Img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px 0px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /* border: 2px solid rgb(51, 51, 255); */
+}
+
+.Money1 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.Money2 {
+    width: 410px;
+    height: 450px;
+    float: left;
+    margin: 0px 0px;
+    border: 10px solid rgb(51, 51, 255, 0);
+    border-top: 10px solid white;
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgb(51, 51, 255, 0), rgb(204, 0, 0, 0.7)), url(../Img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Money2 a {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    padding: 15px 20px;
+    background-image: linear-gradient(/*to left bottom*/
+    295deg, rgb(153, 255, 0, 1) 100%, rgb(255, 204, 0, 0.7)), url(../Img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 30px;
+    border-radius: 20%;
+    font-weight: 800;
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.A2:hover {
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.6), rgb(51, 51, 255, 0.6), rgb(255, 204, 0, 0.6)), url(../Img/background.png);
+    background-attachment: unset;
+    border: 10px solid rgba(204, 0, 0, 0);
+    /* border-color: unset; */
+    border-radius: 20%;
+    /* width: 270px;
+    position: relative;
+    right: 10px; */
+    color: white;
+    transition: 0.3s;
+}
+
+.A2:active {
+    background-image: linear-gradient(295deg, rgb(255, 204, 0, 0.8)100%, rgb(51, 51, 255, 0)), none;
+    transition: 0.1s;
+}
+
+.Money2 p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    /* background-color: aqua; */
+}
+
+.P1::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: 0.4;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px 0px black;
+}
+
+.Money .far {
+    /* margin-top: 30px; */
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.far2 {
+    margin-top: 10px;
+}
+
+.Gom1 {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 253px;
+    margin-left: 78.5px;
+    margin-top: 80px;
+    /* text-align: center; */
+}
+
+.Content {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(226, 255, 182);
+    font-weight: 600;
+}
+
+.Section2 {
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.6), rgb(51, 51, 255, 0.6), rgb(255, 204, 0, 0.6)), none;
+    margin-top: 40px;
+    height: 750px;
+}
+
+.Money22 {
+    width: 390px;
+    height: 430px;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.6), rgb(51, 51, 255, 0.6), rgb(255, 204, 0, 0.6)), none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Money222 {
+    background-image: linear-gradient(white 100%, red), none;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------COACHS RATING------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+.Section3 {
+    height: 900px;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.7), rgb(51, 51, 255, 0.7) 60%, rgb(255, 204, 0, 0.7)), url(../Img/pokemon\ unite.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Img {
+    width: 200px;
+    height: 130px;
+    border-radius: 60%;
+    margin-top: 38px;
+    /* border: 3px solid white; */
+    /* border: 1px solid white; */
+    position: relative;
+    bottom: 37.5px;
+    right: 0.5px;
+}
+
+.Img2 {
+    width: 200px;
+    height: 130px;
+    border-radius: 60%;
+    margin-top: 68px;
+    /* border: 3px solid white; */
+    position: relative;
+    bottom: 68px;
+    right: 0.5px;
+}
+
+.Img1 {
+    width: 200px;
+    height: 130px;
+    border-radius: 60%;
+    margin-top: 157px;
+    /* border: 3px solid white; */
+    position: relative;
+    bottom: 156.5px;
+    right: -0.5px;
+}
+
+.Imgborder:hover .Img {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.Imgborder1:hover .Img1 {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.Imgborder2:hover .Img2 {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+blockquote {
+    width: 420px;
+    height: 650px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(153, 255, 0, 0.83);
+    padding: 0px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+blockquote::before {
+    content: '\0022';
+    display: inline-block;
+    font-size: 80px;
+    /* background-color: blueviolet; */
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.Cmt {
+    position: relative;
+    bottom: 70px;
+}
+
+
+/* .Block1{
+    padding-top: 148px;
+}
+.Block2{
+    padding-top: 59px;
+} */
+
+.Command {
+    width: 1440px;
+    height: 860px;
+    margin: 0px auto;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+
+.Command1 {
+    width: 420px;
+    height: 440px;
+    margin: 0px 30px;
+    /* background-color: aqua;
+    border: 1px solid red; */
+    float: left;
+    margin-top: 50px;
+}
+
+.Command2 {
+    width: 420px;
+    height: 40px;
+    margin: 0px 0px;
+    /* background-color: aqua;
+    border: 1px solid red; */
+    float: left;
+    /* margin-top: 170px; */
+    margin-top: -40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+cite p {
+    display: inline-block;
+    position: relative;
+    bottom: 53px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    font-weight: 1000;
+    color: black;
+    /* filter: brightness(1000%); */
+}
+
+.About3 {
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.About3::after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 10px;
+    box-shadow: 0px 2px 4px 0px black;
+}
+
+.About33 {
+    text-align: center;
+    /* background-color: yellowgreen; */
+}
+
+.Imgborder {
+    display: inline-block;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.5), rgb(51, 51, 255, 0.5) 60%, rgb(255, 204, 0, 0.5)), url(../Img/pokemon\ unite.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 214px;
+    height: 144px;
+    border: 7px solid rgba(255, 0, 0, 0);
+    border-radius: 60%;
+    position: relative;
+    /* top: 43px; */
+    top: 39px;
+    /* 43-39=4px */
+}
+
+.Imgborder:hover {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.Imgborder1 {
+    display: inline-block;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.5), rgb(51, 51, 255, 0.5) 60%, rgb(255, 204, 0, 0.5)), url(../Img/pokemon\ unite.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* width: 208px; */
+    width: 214px;
+    /* height: 138px; */
+    height: 144px;
+    border: 7px solid rgba(255, 0, 0, 0);
+    border-radius: 60%;
+    position: relative;
+    /* top: 43px; */
+    top: 187px;
+    /* 43-39=4px */
+}
+
+.Imgborder1:hover {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.Imgborder2 {
+    display: inline-block;
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.5), rgb(51, 51, 255, 0.5) 60%, rgb(255, 204, 0, 0.5)), url(../Img/pokemon\ unite.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 214px;
+    height: 144px;
+    border: 7px solid rgba(255, 0, 0, 0);
+    border-radius: 60%;
+    position: relative;
+    /* top: 43px; */
+    top: 69px;
+    /* 43-39=4px */
+}
+
+.Imgborder2:hover {
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.NamePKM1 {
+    position: relative;
+}
+
+.NamePKM2 {
+    position: relative;
+}
+
+.NamePKM {
+    position: relative;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------POKEMON FAVORITES------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------ */
+
+.Section4 {
+    background-image: linear-gradient(295deg, rgb(204, 0, 0, 0.7), rgb(51, 51, 255, 0.7) 60%, rgb(255, 204, 0, 0.7)), url(../Img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1301px;
+}
+
+.About4 {
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.About4::after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 10px;
+    box-shadow: 0px 2px 4px 0px black;
+}
+
+.About44 {
+    text-align: center;
+}
+
+.FavoritesPKM {
+    width: 900px;
+    height: 100px;
+    margin: 0px auto;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    text-align: center;
+}
+
+.FavoritesPKM2 {
+    width: 200px;
+    margin: 0px 50px;
+    /* background-color: rgb(0, 0, 0); */
+    float: left;
+    height: 350px;
+}
+
+.FavoritesPKM3 {
+    width: 200px;
+    margin: 0px 50px;
+    margin-top: 50px;
+    /* background-color: rgb(0, 0, 0); */
+    float: left;
+    height: 350px;
+}
+
+.FavoritesPKM1 p {
+    text-align: center;
+    margin: 0px auto;
+    text-transform: capitalize;
+    background-color: rgb(255, 204, 0, 0.5);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    filter: brightness(200%);
+    width: 200px;
+    cursor: pointer;
+}
+
+.ImgPKM {
+    width: 200px;
+    cursor: pointer;
+}
+
+.ImgPKM:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.ImgPKM1 {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+
+.ImgPKM1:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.ImgPKM2 {
+    width: 200px;
+    position: relative;
+    top: 60px;
+    cursor: pointer;
+}
+
+.ImgPKM2:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.ImgPKM3 {
+    width: 200px;
+    cursor: pointer;
+}
+
+.ImgPKM3:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.ImgPKM4 {
+    width: 200px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+.ImgPKM4:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.name {
+    /* margin-top: 187px; */
+    margin-top: 109px;
+    /* 187-109=78px */
+}
+
+.name1 {
+    margin-top: 40px;
+}
+
+.name2 {
+    margin-top: 42px;
+}
+
+.name3 {
+    /* margin-top: 44px; */
+    margin-top: 40px;
+    /* 44-40=4px */
+}
+
+.name4 {
+    margin-top: 184px;
+}
+
+.name5 {
+    margin-top: 113px;
+}
+
+.name6 {
+    /* margin-top: 188px; */
+    margin-top: 130px;
+    /* 188-130=58px */
+}
+
+.name7 {
+    margin-top: 42px;
+}
+
+.name8 {
+    margin-top: 136.5px;
+}
+
+.FavoritesPKM1-1 {
+    position: relative;
+    bottom: 350px;
+}
+
+.FavoritesPKM1-2 {
+    position: relative;
+    bottom: 650px;
+}
+
+.Hr {
+    content: "";
+    display: inline-block;
+    width: 900px;
+    height: 5px;
+    background-color: rgb(255, 204, 0);
+    position: relative;
+    bottom: 40px;
+}
+
+.Hr1 {
+    content: "";
+    display: inline-block;
+    width: 900px;
+    height: 5px;
+    background-color: rgb(255, 204, 0);
+    position: relative;
+    top: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------ACCOUNT------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+.Section5 {
+    background-image: linear-gradient(/*to left bottom*/
+    295deg, rgba(116, 6, 6, 0.8), rgba(5, 5, 104, 0.8) 60%, rgba(121, 98, 9, 0.8)), url(../Img/background_account.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    position: relative;
+    /* bottom: 1000px; */
+}
+
+.Section55 {
+    /* border: 5px solid red; */
+    position: relative;
+    /* bottom: 1000px; */
+}
+
+.InforAdmin {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 15px;
+    margin-top: 250px;
+    line-height: 50px;
+    display: inline-block;
+    background-color: rgba(168, 134, 0, 0.7);
+    width: 45%;
+    /* float: left; */
+    border-radius: 20px;
+}
+
+.ContactAdmin {
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 600;
+    padding-right: 0px;
+}
+
+.ContactAdmin i {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.ContactAdmin .icon:hover {
+    color: rgb(153, 255, 0);
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.ConnectAdmin i {
+    margin-right: 50px;
+    font-size: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.ConnectAdmin {
+    /* background-color: red; */
+    text-align: center;
+}
+
+.ConnectAdmin .icon:hover {
+    color: rgb(153, 255, 0);
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.CreateAccount {
+    width: 50%;
+    background-color: rgb(204, 0, 0, 0.5);
+    /* display: inline-block; */
+    margin-top: 100px;
+    float: right;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    height: unset;
+}
+
+.CreateAccount form {
+    /* background-color: aquamarine; */
+    display: inline-block;
+}
+
+.CreateAccount2 {
+    margin-bottom: 40px;
+    /* background-color: red; */
+}
+
+.InputGuest {
+    font-size: 30px;
+    /* background-color: red; */
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+    letter-spacing: 2px;
+}
+
+.InputNickname {
+    font-size: 30px;
+    /* background-color: yellow; */
+    padding-left: 5px;
+    width: 400px;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    border: 2px solid rgb(255, 204, 0, 0.5);
+    border-radius: 7px;
+}
+
+.InputNickname1 {
+    font-size: 18px;
+    padding-left: 5px;
+    width: 400px;
+    display: inline-block;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    resize: none;
+    /* làm cho textarea ko còn thay đổi size đc nữa */
+    border: 2px solid rgb(255, 204, 0, 0.5);
+    border-radius: 7px;
+}
+
+.InputNickname1:focus,
+.InputNickname:focus {
+    background-color: rgba(34, 34, 34, 0.863);
+}
+
+.InputNickname1:hover,
+.InputNickname:hover {
+    border: 2px solid rgb(255, 204, 0);
+    transition: 0.3s;
+}
+
+.Send_Us {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, rgb(153, 255, 0, 0.7) 100%, white), none;
+    text-align: center;
+    padding: 5px 50px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+}
+
+.Send_Us:hover {
+    background-image: linear-gradient(to bottom, rgb(153, 255, 0)60%, white), none;
+    color: black;
+    transition: 0.1s;
+}
+
+.Send_Us:active {
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(153, 255, 0, 0) 100%, rgba(255, 255, 255, 0)), none;
+    border: 3px solid rgba(153, 255, 0, 0.829);
+}
+
+.Send_Us1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 57px;
+    width: 100%;
+}
+
+.Send_Us1 p {
+    display: inline-block;
+    font-size: 60px;
+    position: relative;
+    bottom: 24px;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------END------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+.Section6 {
+    height: 40px;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(/*to left bottom*/
+    295deg, rgb(204, 0, 0, 1), rgb(51, 51, 255, 1) 60%, rgb(255, 204, 0, 1)), none;
+    background-attachment: fixed;
+}
+.Section666{
+    background-color: rgb(0, 0, 0, 0.1);
+    height: 100%;
+}
+.Section66 {
+    /* border: 5px solid red; */
+    position: relative;
+    /* bottom: 1000px; */
+}
+
+.End {
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: white;
+}

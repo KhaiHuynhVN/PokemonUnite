@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="Resources/Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Resources/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Resources/Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Resources/Favicons/site.webmanifest">
+    <link rel="mask-icon" href="Resources/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="Resources/Favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="Resources/Favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cày Code LV2</title>
+    <script src="https://kit.fontawesome.com/c198eb2385.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Vendors/Css/Grid.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Resources/Css/Css1.css">
+    <link rel="stylesheet" href="Resources/Css/Queries.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 400, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <!-- Hiệu ứng scroll smooth -->
+
+    <a href="#Header" class="GoFirstPage1 AddInvisible"><i class="fas fa-arrow-up"></i></a>
+
+    <header id="Header">
+        <nav class="AddSticky">
+            <div class="test">
+
+                <div class="LogoCenter">
+                    <img class="Logo" src="Resources/Img/logo.png" alt="Picture_logo">
+                </div>
+                <ul class="Menu MenuToggle">
+                    <!-- ul là gạch đầu dòng còn ol là đánh số -->
+                    <i class="fas fa-times-circle"></i>
+                    <p class="TextClose">Close</p>
+                    <div class="Menucover">
+                        <li><a href="#Header">HOME</a></li>
+                        <div class="BorderRight"></div>
+                        <li><a href="#Section1">ABOUT US</a></li>
+                        <div class="BorderRight"></div>
+                        <li><a href="#Section2">PRODUCTS</a></li>
+                        <div class="BorderRight"></div>
+                        <li><a href="#Section3">COACHS RATING</a></li>
+                        <div class="BorderRight"></div>
+                        <li><a href="#Section4">POKÉMON FAVORITES</a></li>
+                        <div class="BorderRight"></div>
+                        <li><a href="#Section5">CONTACT</a></li>
+                    </div>
+                </ul>
+                <!-- Logo menu nè -->
+                <div class="MainMenu">
+                    <i class="fas fa-bars bars"></i>
+                    <p class="TextBars">Menu</p>
+                </div>
+            </div>
+        </nav>
+        <div class="Clearfix"></div>
+        <div class="Say">
+            <p class="Say_1">We're going <br> to be the best pokemon <br> trainer in the world!</p><br>
+            <div class="A1">
+                <a href="#">Tell me more!</a>
+                <a href="#">Join us!</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="Section1">
+        <h1 class="About">About us</h1>
+        <p class="Us">
+            ©2021 Pokémon. ©1995–2021 Nintendo / Creatures Inc. / GAME FREAK inc.
+            <br>©2021 Tencent.
+            <br>TM, ® Nintendo.
+            <br>Terminology is not final.
+            <br>Screenshots and game footage are from a title under development.
+            <br>This is a free-to-start game; optional in-game purchases available. Data charges may apply.
+            <br>Nintendo Switch is a trademark of Nintendo
+            <br>Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App
+            Store
+            <br>is a service mark of Apple Inc.
+            Android, Google Play, and the Google Play logo are trademarks of Google, LLC.
+        </p>
+        <div class="Cotmain">
+
+            <div class="Cot1">
+                <img class="Pickture" src="Resources/Img/pikachu.png" alt="pickture1">
+                <p class="P">Pickture 1</p>
+            </div>
+
+            <div class="Cot2">
+                <img class="Pickture" src="Resources/Img/snorlax.png" alt="pickture2">
+                <p class="P">Pickture 2</p>
+            </div>
+
+            <div class="Cot3">
+                <img class="Pickture" src="Resources/Img/pokemon1.png" alt="">
+                <p class="P">Pickture 3</p>
+            </div>
+
+            <div class="Cot1">
+                <img class="Pickture" src="Resources/Img/pokemon2.png" alt="">
+                <p class="P">Pickure 4</p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="Clearfix"></div>
+    <section id="Section2" class="Section2">
+        <div class="About22">
+            <h1 class="About2">Products</h1>
+        </div>
+
+        <div class="Money">
+
+            <div class="Money3">
+                <div class="Money1">
+                    <p>Normal Trainer</p>
+                </div>
+
+                <div class="Money2">
+                    <div class="Money222">
+                        <div class="Money22">
+                            <p class="P1">5$ <span>/ year</span></p>
+
+                            <div class="Gom1">
+                                <i class="far fa-check-circle"></i>
+                                <div class="Content">Get 5 Pokemon</div> <br>
+                                <div class="far2"><i class="far fa-check-circle"></i>
+                                    <div class="Content">Get 5 Skin</div>
+                                </div>
+                            </div>
+
+                            <a href="" class="A2">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Money3">
+                <div class="Money1">
+                    <p>Pro Trainer</p>
+                </div>
+
+                <div class="Money2">
+                    <div class="Money222">
+                        <div class="Money22">
+                            <p class="P1">10$ <span>/ year</span></p>
+
+                            <div class="Gom1">
+                                <i class="far fa-check-circle"></i>
+                                <div class="Content">Get 10 Pokemon</div> <br>
+                                <div class="far2"><i class="far fa-check-circle"></i>
+                                    <div class="Content">Get 10 Skin</div>
+                                </div>
+                            </div>
+
+                            <a href="" class="A2">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Money3">
+                <div class="Money1">
+                    <p>Vip Trainer</p>
+                </div>
+
+                <div class="Money2">
+                    <div class="Money222">
+                        <div class="Money22">
+                            <p class="P1">15$ <span>/ year</span></p>
+
+                            <div class="Gom1">
+                                <i class="far fa-check-circle"></i>
+                                <div class="Content">Get 20 Pokemon</div> <br>
+                                <div class="far2"><i class="far fa-check-circle"></i>
+                                    <div class="Content">Get 20 Skin</div>
+                                </div>
+                            </div>
+
+                            <a href="" class="A2">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Section3" class="Section3">
+        <div class="About33">
+            <div class="About3">Coachs Rating</div>
+        </div>
+        <div class="Command">
+            <div class="Command1">
+                <blockquote class="Block1">
+                    <p class="Cmt">
+                        Pikachu (ピカチュウ Pikachuu) is an Electric-type Pokémon which was introduced in Generation I.
+                        Pikachu is renowned for being the most well-known and recognizable Pokémon. <br>
+                    </p>
+                    <cite>
+                        <div class="Imgborder1">
+                            <img class="Img1" src="Resources/Img/pikachu2.png" alt="">
+                        </div>
+                        <p class="NamePKM1">Pikachu</p>
+                    </cite>
+                </blockquote>
+                <div class="Command2">
+
+                </div>
+            </div>
+
+            <div class="Command1">
+                <blockquote class="Block2">
+                    <p class="Cmt">
+                        Eevee (イーブイ Iibui) is a Normal-type Pokémon introduced in Generation I. It's well known for
+                        being the Pokémon with the highest number of evolution possibilities (8), due to its unstable
+                        genetic makeup. It is the Version Mascot and Starter Pokémon for the game Pokémon: Let's Go,
+                        Eevee!. It also has a Gigantamax form. <br>
+                    </p>
+                    <cite>
+                        <div class="Imgborder2  ">
+                            <img class="Img2" src="Resources/Img/eevee.png" alt="">
+                        </div>
+                        <p class="NamePKM2">Eevee</p>
+                    </cite>
+                </blockquote>
+                <div class="Command2">
+
+                </div>
+            </div>
+
+            <div class="Command1">
+                <blockquote class="Block3">
+                    <p class="Cmt">
+                        Charizard (リザードン Rizaadon) is a Fire/Flying-type Pokémon introduced in Generation I. <br>
+                        It can Mega Evolve into either Mega Charizard X, using the Charizardite X, or Mega Charizard Y,
+                        using the Charizardite Y. It has a Gigantamax form. <br>
+                        It is the mascot for Pokémon Red and its remake, Pokémon FireRed. <br>
+                    </p>
+                    <cite>
+                        <div class="Imgborder">
+                            <img class="Img" src="Resources/Img/charizard.png" alt="">
+                        </div>
+                        <p class="NamePKM">Charizard</p>
+                    </cite>
+                </blockquote>
+                <div class="Command2">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Section4" class="Section4">
+        <div class="About44">
+            <div class="About4">
+                Pokémon favorites
+            </div>
+        </div>
+
+        <div class="FavoritesPKM">
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/boundsweet.png" alt="" class="ImgPKM1">
+                <div class="FavoritesPKM1 name">
+                    <p>boundsweet</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/cherubi.png" alt="" class="ImgPKM">
+                <div class="FavoritesPKM1 name1">
+                    <p>cherubi</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/chesnaught.png" alt="" class="ImgPKM">
+                <div class="FavoritesPKM1 name2">
+                    <p>chesnaught</p>
+                </div>
+            </div>
+
+            <div class="Hr"></div>
+
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/dragonite.png" alt="" class="ImgPKM">
+                <div class="FavoritesPKM1 name3">
+                    <p>dragonite</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/kartana.png" alt="" class="ImgPKM2">
+                <div class="FavoritesPKM1 name4">
+                    <p>kartana</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM2">
+                <img src="Resources/Img/9 pokemon/leafeon.png" alt="" class="ImgPKM">
+                <div class="FavoritesPKM1 name5">
+                    <p>leafeon</p>
+                </div>
+            </div>
+
+            <div class="Hr1"></div>
+
+            <div class="FavoritesPKM3">
+                <img src="Resources/Img/9 pokemon/skiddo.png" alt="" class="ImgPKM4">
+                <div class="FavoritesPKM1 name6">
+                    <p>skiddo</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM3">
+                <img src="Resources/Img/9 pokemon/tangela.png" alt="" class="ImgPKM3">
+                <div class="FavoritesPKM1 name7">
+                    <p>tangela</p>
+                </div>
+            </div>
+
+            <div class="FavoritesPKM3">
+                <img src="Resources/Img/9 pokemon/venusaur.png" alt="" class="ImgPKM4">
+                <div class="FavoritesPKM1 name8">
+                    <p>venusaur</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="Clearfix"></div>
+
+    <div class="Section55">
+        <section id="Section5" class="Section5">
+            <div class="InforAdmin">
+
+                <div class="ContactAdmin">
+                    <i class="fas fa-map-marker-alt icon"></i> Address: 85/38 Ho Van Long Stress, Tan Tao, Binh Tan, Ho
+                    Chi Minh City <br>
+                    <i class="fas fa-mail-bulk icon"></i> Email: Demonpixelgun3d@gmail.com <br>
+                    <i class="fas fa-phone-alt icon"></i> Phone: 0933069587
+                </div>
+
+                <div class="ConnectAdmin">
+                    <i class="fab fa-twitter-square icon"></i>
+                    <i class="fab fa-facebook-square icon"></i>
+                    <i class="fab fa-instagram-square icon"></i>
+                    <i class="fab fa-google-plus-square icon"></i>
+                </div>
+
+            </div>
+
+            <div class="CreateAccount">
+
+                <div class="CreateAccount2">
+                    <div class="InputGuest">
+                        Nickname
+                    </div>
+                    <div>
+                        <form action="">
+                            <input class="InputNickname" type="text" placeholder="Your Nickname">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="CreateAccount2">
+                    <div class="InputGuest">
+                        Email
+                    </div>
+                    <div>
+                        <form action="">
+                            <input class="InputNickname" type="text" placeholder="Your Email">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="CreateAccount3">
+                    <div class="InputGuest">
+                        Message
+                    </div>
+                    <div>
+                        <form action="">
+                            <textarea name="" id="" cols="30" rows="10" class="InputNickname1"
+                                placeholder="Your Text"></textarea><br>
+                            <div class="Send_Us1">
+                                <a href="#" class="Send_Us">Send Us</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="Section66">
+        <section class="Section6">
+            <div class="Section666">
+                <p class="End">Create &trade; 2022 by DemonVN</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="Vendors/Js/For Jquery/lib/jquery.waypoints.min.js"></script>
+    <script src="Resources/Js/Scripst.js"></script>
+
+</body>
+
+</html>
