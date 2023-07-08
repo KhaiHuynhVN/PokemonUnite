@@ -188,8 +188,16 @@ header {
     margin-top: 50px;
 }
 .A1{
+    display: flex;
+    align-items: center;
     width: 600px;
-    margin-top: 0px;
+}
+
+.A1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid transparent;
 }
 
 .Say a:hover {
@@ -626,11 +634,6 @@ header {
     width: 200px;
     height: 130px;
     border-radius: 60%;
-    margin-top: 38px;
-    /* border: 3px solid white; */
-    /* border: 1px solid white; */
-    position: relative;
-    bottom: 37.5px;
     right: 0.5px;
 }
 
@@ -638,10 +641,6 @@ header {
     width: 200px;
     height: 130px;
     border-radius: 60%;
-    margin-top: 68px;
-    /* border: 3px solid white; */
-    position: relative;
-    bottom: 68px;
     right: 0.5px;
 }
 
@@ -649,10 +648,6 @@ header {
     width: 200px;
     height: 130px;
     border-radius: 60%;
-    margin-top: 157px;
-    /* border: 3px solid white; */
-    position: relative;
-    bottom: 156.5px;
     right: -0.5px;
 }
 
@@ -672,6 +667,8 @@ header {
 }
 
 blockquote {
+    display: flex;
+    flex-direction: column;
     width: 420px;
     height: 650px;
     letter-spacing: 1px;
@@ -685,18 +682,16 @@ blockquote {
 }
 
 blockquote::before {
+    position: absolute;
+    top: -15px;
+    left: 10px;
     content: '\0022';
-    display: inline-block;
     font-size: 80px;
-    /* background-color: blueviolet; */
-    position: relative;
-    bottom: 20px;
-    right: 10px;
 }
 
 .Cmt {
     position: relative;
-    bottom: 70px;
+    margin-top: 50px;
 }
 
 
@@ -708,6 +703,7 @@ blockquote::before {
 } */
 
 .Command {
+    display: flex;
     width: 1440px;
     height: 860px;
     margin: 0px auto;
@@ -719,9 +715,6 @@ blockquote::before {
     width: 420px;
     height: 440px;
     margin: 0px 30px;
-    /* background-color: aqua;
-    border: 1px solid red; */
-    float: left;
     margin-top: 50px;
 }
 
@@ -738,16 +731,19 @@ blockquote::before {
     position: relative;
 }
 
+cite {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
 cite p {
-    display: inline-block;
-    position: relative;
-    bottom: 53px;
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 4px;
     margin-left: 10px;
     font-weight: 1000;
     color: black;
-    /* filter: brightness(1000%); */
 }
 
 .About3 {
@@ -787,10 +783,6 @@ cite p {
     height: 144px;
     border: 7px solid rgba(255, 0, 0, 0);
     border-radius: 60%;
-    position: relative;
-    /* top: 43px; */
-    top: 39px;
-    /* 43-39=4px */
 }
 
 .Imgborder:hover {
@@ -804,16 +796,10 @@ cite p {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /* width: 208px; */
     width: 214px;
-    /* height: 138px; */
     height: 144px;
     border: 7px solid rgba(255, 0, 0, 0);
     border-radius: 60%;
-    position: relative;
-    /* top: 43px; */
-    top: 187px;
-    /* 43-39=4px */
 }
 
 .Imgborder1:hover {
@@ -831,29 +817,12 @@ cite p {
     height: 144px;
     border: 7px solid rgba(255, 0, 0, 0);
     border-radius: 60%;
-    position: relative;
-    /* top: 43px; */
-    top: 69px;
-    /* 43-39=4px */
 }
 
 .Imgborder2:hover {
     border-radius: 0%;
     transition: 0.5s;
 }
-
-.NamePKM1 {
-    position: relative;
-}
-
-.NamePKM2 {
-    position: relative;
-}
-
-.NamePKM {
-    position: relative;
-}
-
 
 /* ------------------------------------------------------------------------------ */
 
@@ -1238,13 +1207,6 @@ cite p {
     margin-top: 10px;
     height: 57px;
     width: 100%;
-}
-
-.Send_Us1 p {
-    display: inline-block;
-    font-size: 60px;
-    position: relative;
-    bottom: 24px;
 }
 
 /* ------------------------------------------------------------------------------ */

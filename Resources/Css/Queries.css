@@ -1,4 +1,4 @@
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1500px){
 
     .Logo {
         width: 350px;
@@ -268,52 +268,33 @@
     }
     blockquote::before{
         content: '\0022';
-        display: inline-block;
         font-size: 80px;
-        /* background-color: blueviolet; */
-        position: relative;
-        bottom: 20px;
-        right: 0px;
     }
     cite p{
-        display: inline-block;
-        position: relative;
-        bottom: 53px;
-        font-size: 25px;
+        /* font-size: 25px;
         letter-spacing: 4px;
         margin-left: 10px;
         font-weight: 1000;
-        color: black;
+        color: black; */
         /* filter: brightness(1000%); */
     }
 
     .Img{
-        /* width: 200px;
-        height: 130px; */
         width: 120px;
         height: 80px;
         border-radius: 60%;
-        margin-top: 38px;
-        position: relative;
-        bottom: 37.5px;
         right: 0.5px;
     }
     .Img2{
         width: 120px;
         height: 80px;
         border-radius: 60%;
-        margin-top: 68px;
-        position: relative;
-        bottom: 68px;
         right: 0.5px;
     }
     .Img1{
         width: 120px;
         height: 80px;
         border-radius: 60%;
-        margin-top: 157px;
-        position: relative;
-        bottom: 156.5px;
         right: -0.5px;
     }
     .Imgborder1{
@@ -324,10 +305,8 @@
         background-attachment: fixed;
         width: 134px;
         height: 94px;
-        border: 7px solid rgba(255, 0, 0, 0);
+        border: 7px solid transparent;
         border-radius: 60%;
-        position: relative;
-        top: 159px;
     }
     .Imgborder2{
         display: inline-block;
@@ -337,10 +316,8 @@
         background-attachment: fixed;   
         width: 134px;
         height: 94px;
-        border: 7px solid rgba(255, 0, 0, 0);
+        border: 7px solid transparent;
         border-radius: 60%;
-        position: relative;
-        top: 63px;
     }
     .Imgborder{
         display: inline-block;
@@ -350,24 +327,8 @@
         background-attachment: fixed;    
         width: 134px;
         height: 94px;
-        border: 7px solid rgba(255, 0, 0, 0);
+        border: 7px solid transparent;
         border-radius: 60%;
-        position: relative;
-        top: 39px;
-        /* top: 195px; */
-        /* 195-39=156px */
-    }
-    .NamePKM1{
-        position: relative;
-        top: -26px;
-    }
-    .NamePKM2{
-        position: relative;
-        top: -35px;
-    }
-    .NamePKM{
-        position: relative;
-        top: -31px;
     }
 
     .InforAdmin{

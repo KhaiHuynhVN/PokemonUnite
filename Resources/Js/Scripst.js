@@ -14,21 +14,33 @@ $(document).ready(
     }
 )
 
-console.log(document.querySelector('.Menucover').offsetTop + 'px')
-
 $(document).ready(
     function(){
         $('.Section5').waypoint(
             function(derection){
                 if(derection == "down"){
                     $('.AddInvisible').addClass('Invisible')
-                    console.log('kích hoạt kéo xuống')
                 }else{
                     $('.AddInvisible').removeClass('Invisible')
-                    console.log('kích hoạt kéo lên')
                 }
             },{
                 offset:'50px'
+            }
+        )
+    }
+)
+
+$(document).ready(
+    function(){
+        $('#Header').waypoint(
+            function(derection){
+                if(derection == "down"){
+                    $('.AddInvisible').removeClass('Invisible')
+                }else{
+                    $('.AddInvisible').addClass('Invisible')
+                }
+            },{
+                offset:'-150px'
             }
         )
     }
